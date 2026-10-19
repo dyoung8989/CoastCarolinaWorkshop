@@ -1,6 +1,6 @@
 # Student guide
 
-Bring a laptop, a browser, and a Google account. Open the notebook using the [README instructions](../README.md#start-here). You do not need to install Python or use GitHub yourself.
+Bring a laptop, a browser, and a Google account. [Open the workshop in Colab](https://colab.research.google.com/github/dyoung8989/CoastCarolinaWorkshop/blob/main/notebooks/nlp_workshop_notebook.ipynb), sign in to Google, and choose **File → Save a copy in Drive**. Work in your copy so you can keep your edits. You do not need to upload a notebook, install Python, or create a GitHub account when the repository is public. See the [README instructions](../README.md#start-here) if the link does not open.
 
 ## Colab basics
 

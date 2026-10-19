@@ -4,12 +4,16 @@ Companion materials for a 90-minute Coastal Carolina workshop for English studen
 
 ## Start here
 
-1. Open [Google Colab](https://colab.research.google.com/), choose **Upload**, and upload [`notebooks/nlp_workshop_notebook.ipynb`](notebooks/nlp_workshop_notebook.ipynb). Download the notebook from GitHub with **Download raw file** first.
-2. Sign in to Google and save a copy in Drive if you want to keep your edits.
-3. Run the setup cells, then work from top to bottom with **Shift + Enter**.
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dyoung8989/CoastCarolinaWorkshop/blob/main/notebooks/nlp_workshop_notebook.ipynb)
+
+1. Click **Open in Colab** above. No notebook upload or local Python installation is needed.
+2. Sign in to Google and choose **File → Save a copy in Drive** to keep your own edits.
+3. In your copy, run the setup cells, then work from top to bottom with **Shift + Enter**. Wait for setup to finish; if Colab requests a restart, restart the session and run from the top.
 4. Follow the two student exercises; the instructor leads the prediction demo.
 
-Once these files are on the repository's `main` branch, use [Open in Colab](https://colab.research.google.com/github/dyoung8989/CoastCarolinaWorkshop/blob/main/notebooks/nlp_workshop_notebook.ipynb). If that link cannot access the repository, use the upload route above. A private repository may require additional authorization.
+### If the link does not open
+
+A private GitHub repository may require additional authorization. If Colab cannot open it, download [`notebooks/nlp_workshop_notebook.ipynb`](notebooks/nlp_workshop_notebook.ipynb) from GitHub using **Download raw file**. Open [Google Colab](https://colab.research.google.com/), choose **Upload**, and select the downloaded notebook. Ask the facilitator for a copy if you cannot access GitHub.
 
 ## What you'll do
 

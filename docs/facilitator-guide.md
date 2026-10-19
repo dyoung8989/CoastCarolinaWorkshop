@@ -5,7 +5,8 @@ This is one 90-minute session for English students with no assumed coding backgr
 ## Before the event
 
 - Confirm the date, room, audience size, Wi-Fi, projection, and Google/Colab access.
-- Share the repository and notebook in advance. Verify the direct Colab link against the repository's actual default branch and visibility; keep the upload route available.
+- Put this [direct Colab link](https://colab.research.google.com/github/dyoung8989/CoastCarolinaWorkshop/blob/main/notebooks/nlp_workshop_notebook.ipynb) in the workshop invitation and opening slide. Students should save their own Drive copy before editing.
+- For access without GitHub authorization, make the repository public. Test the Colab link while signed out of GitHub, then rehearse setup and all cells in a fresh Colab session. Keep a downloadable notebook copy as a fallback.
 - Run the notebook in a fresh Colab session the morning of the event. Setup downloads libraries and a language model; allow several minutes on a slow connection.
 - Save a separate executed copy in Drive and a readable PDF/printout of its outputs for a network outage. Keep the distributed student notebook's outputs clear.
 - Arrange a helper if possible. Prepare concept slides separately; no deck is included here.
