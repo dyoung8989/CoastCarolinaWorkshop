@@ -40,3 +40,7 @@ Extraction can miss or mislabel information. A readiness score is a discussion p
 Students only need Colab. Maintainers can validate the notebook with `python scripts/validate_notebook.py`; the GitHub workflow also executes every analysis cell with the workshop dependencies. See [validation notes](docs/validation.md).
 
 Event date, room, slides, and facilitator contact details have not been supplied. See the facilitator checklist before sharing the workshop.
+
+## License
+
+Copyright (c) 2026 David Young. Code is licensed under [MIT](LICENSE-MIT); guides, sample text, and notebook explanations are licensed under [CC BY 4.0](LICENSE-CC-BY-4.0.txt). See [licensing details](LICENSE.md) for notebook scope, attribution, and third-party exclusions.
