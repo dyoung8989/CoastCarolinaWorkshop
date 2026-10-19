@@ -45,16 +45,6 @@ Connect the activities to work such as technical writing, content operations, do
 | 1:15 to 1:27 | 12 min | Careers and questions | Connect the activities to specific roles and answer questions. |
 | 1:27 to 1:30 | 3 min | Wrap-up | Share the resources and ask each student to choose one next step. |
 
-## Materials and preparation
-
-- Share the [student notebook](../notebooks/nlp_workshop_notebook.ipynb) and [student guide](student-guide.md) in advance.
-- Test the Colab link while signed out of GitHub. Run the notebook in a fresh Colab session before the workshop.
-- Prepare slides for the concepts. No slide deck is included in this repository.
-- Use the supplied synthetic text or other text you have permission to share.
-- Test the instructor's prediction example locally. Keep saved output available if the demo cannot run.
-- Confirm the date, room, Wi-Fi, projection, and Google account access.
-- Keep a downloadable notebook copy and saved student-example outputs available if connectivity fails.
-
 ## Resources
 
 Share the [resources and glossary](resources.md). Suggestions include Write the Docs, spaCy's introduction, and the Hugging Face course. Recommend one starting point based on the student's interests.

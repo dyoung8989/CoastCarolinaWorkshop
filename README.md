@@ -34,16 +34,6 @@ A private GitHub repository may require additional authorization. If Colab canno
 - [Model and scoring notes](docs/model-notes.md): assumptions and limits behind the demos.
 - [Sample documents](data/README.md): synthetic examples for editing practice.
 
-## Reading the results
-
-Check the results against the text. Extraction can miss information or label it incorrectly. The readiness score gives you points to discuss, but it cannot tell you whether a document is correct or complete. The instructor’s prediction demo shows a method, not proof of real-world outcomes.
-
-## Maintainer checks
-
-Students only need Colab. Maintainers can validate the notebook with `python scripts/validate_notebook.py`; the GitHub workflow also executes every student analysis cell, including the original/revision comparison table, with the workshop dependencies. See [validation notes](docs/validation.md).
-
-See the [agenda](docs/agenda.md#materials-and-preparation) for the preparation checklist. Confirm the date, room, and instructor contact details before sharing event information.
-
 ## License
 
 Copyright (c) 2026 David Young. Code is licensed under [MIT](LICENSE-MIT); guides, sample text, and notebook explanations are licensed under [CC BY 4.0](LICENSE-CC-BY-4.0.txt). See [licensing details](LICENSE.md) for notebook scope, attribution, and third-party exclusions.
