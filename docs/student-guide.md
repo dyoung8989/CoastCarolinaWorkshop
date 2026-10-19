@@ -24,11 +24,11 @@ Discuss: what would a writer need to check before using these labels in a real d
 3. Write your edited text inside the separate triple quotes for `revision`, then run the cell. The table shows both texts’ scores, readability, passive voice, sentence length, structure, and full flags. Change one issue at a time and rerun; compare both the numbers and the meaning.
 4. Read the provided rewrite critically. What information did it omit? Could it earn a higher score while being less complete?
 
-The goal is a more useful document, not a perfect number. Passive voice can be appropriate; technical terms may be necessary.
+Check whether the revision helps the reader and keeps the meaning. Passive voice can be appropriate, and technical terms may be necessary.
 
-## Prediction demo (15 minutes)
+## Instructor prediction demo (15 minutes)
 
-The instructor runs a separate example locally on their own machine. There is no Tier 3 code to run in the student notebook. Discuss which outcomes are missing and whether the example supports the claims made about it.
+The instructor drives this demo on their own machine. Watch the example and discuss the results. Consider what information is missing and what evidence would be needed to use the predictions.
 
 ## If something breaks
 

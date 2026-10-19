@@ -9,11 +9,11 @@ Companion materials for a 90-minute Coastal Carolina workshop for English studen
 1. Click **Open in Colab** above. No notebook upload or local Python installation is needed.
 2. Sign in to Google and choose **File → Save a copy in Drive** to keep your own edits.
 3. In your copy, run the setup cells, then work from top to bottom with **Shift + Enter**. Wait for setup to finish; if Colab requests a restart, restart the session and run from the top.
-4. Follow the two student exercises. The instructor runs a separate prediction example locally; students do not run Tier 3 in this notebook.
+4. Complete the two student exercises. The instructor drives a separate prediction demo on their own machine.
 
 ### If the link does not open
 
-A private GitHub repository may require additional authorization. If Colab cannot open it, download [`notebooks/nlp_workshop_notebook.ipynb`](notebooks/nlp_workshop_notebook.ipynb) from GitHub using **Download raw file**. Open [Google Colab](https://colab.research.google.com/), choose **Upload**, and select the downloaded notebook. Ask the facilitator for a copy if you cannot access GitHub.
+A private GitHub repository may require additional authorization. If Colab cannot open it, download [`notebooks/nlp_workshop_notebook.ipynb`](notebooks/nlp_workshop_notebook.ipynb) from GitHub using **Download raw file**. Open [Google Colab](https://colab.research.google.com/), choose **Upload**, and select the downloaded notebook. Ask the instructor for a copy if you cannot access GitHub.
 
 ## What you'll do
 
@@ -23,27 +23,26 @@ A private GitHub repository may require additional authorization. If Colab canno
 | Colab setup | Run your first Python cells | 10 min |
 | Extraction | Find entities and likely action items | 15 min |
 | Automated evaluation | Revise text and inspect a readiness score | 15 min |
-| Prediction | Watch a model learn from simulated document outcomes | 15 min |
+| Prediction | Watch the instructor run a separate local example | 15 min |
 | Careers and questions | Discuss roles and choose a next step | 15 min |
 
 ## Materials
 
 - [Student guide](docs/student-guide.md): exercises, troubleshooting, and reflection prompts.
 - [Workshop agenda](docs/agenda.md): full 90-minute schedule and event description.
-- [Facilitator guide](docs/facilitator-guide.md): preparation, teaching notes, and fallback plan.
 - [Resources and glossary](docs/resources.md): links and terms used in the workshop.
 - [Model and scoring notes](docs/model-notes.md): assumptions and limits behind the demos.
 - [Sample documents](data/README.md): synthetic examples for editing practice.
 
 ## Reading the results
 
-Extraction can miss or mislabel information. A readiness score is a discussion prompt, not a measure of writing quality. The instructor’s separate prediction example illustrates a method; its outcomes should not be treated as evidence about actual support tickets. Human judgment remains essential throughout.
+Check the results against the text. Extraction can miss information or label it incorrectly. The readiness score gives you points to discuss, but it cannot tell you whether a document is correct or complete. The instructor’s prediction demo shows a method, not proof of real-world outcomes.
 
 ## Maintainer checks
 
 Students only need Colab. Maintainers can validate the notebook with `python scripts/validate_notebook.py`; the GitHub workflow also executes every student analysis cell, including the original/revision comparison table, with the workshop dependencies. See [validation notes](docs/validation.md).
 
-Event date, room, slides, and facilitator contact details have not been supplied. See the facilitator checklist before sharing the workshop.
+See the [agenda](docs/agenda.md#materials-and-preparation) for the preparation checklist. Confirm the date, room, and instructor contact details before sharing event information.
 
 ## License
 
