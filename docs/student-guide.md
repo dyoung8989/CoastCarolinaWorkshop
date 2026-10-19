@@ -20,15 +20,15 @@ Discuss: what would a writer need to check before using these labels in a real d
 ## Exercise 2: revise and evaluate (15 minutes)
 
 1. Run the readiness function and messy-document example.
-2. Choose one flag and change only the relevant sentence or structure.
-3. Run the revision cell and compare both the score and the meaning.
+2. In **Your turn**, replace the text inside the triple quotes for `original` with your own non-sensitive paragraph.
+3. Write your edited text inside the separate triple quotes for `revision`, then run the cell. The table shows both texts’ scores, readability, passive voice, sentence length, structure, and full flags. Change one issue at a time and rerun; compare both the numbers and the meaning.
 4. Read the provided rewrite critically. What information did it omit? Could it earn a higher score while being less complete?
 
 The goal is a more useful document, not a perfect number. Passive voice can be appropriate; technical terms may be necessary.
 
 ## Prediction demo (15 minutes)
 
-Watch the instructor generate synthetic historical documents, separate training and test examples, fit a model, and rank three simulated current documents. Ask which outcomes are missing and whether the test examples resemble the documents people actually use.
+The instructor runs a separate example locally on their own machine. There is no Tier 3 code to run in the student notebook. Discuss which outcomes are missing and whether the example supports the claims made about it.
 
 ## If something breaks
 

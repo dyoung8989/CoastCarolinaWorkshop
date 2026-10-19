@@ -10,7 +10,9 @@ The score starts at 100 and subtracts: `max(0, 60 - readability)`, half the pass
 
 The Flesch estimate uses a simple vowel-group syllable counter. It is approximate and English-specific. Sentence segmentation and passive detection also make mistakes. The structure detector checks formatting, not information architecture. Empty or punctuation-only input raises a clear error. None of these signals checks correctness, completeness, accessibility, audience fit, or whether a reader can finish a task.
 
-## Prediction
+## Prediction (separate instructor example)
+
+Tier 3 has been removed from the student notebook. The notes below describe the previous synthetic demonstration as background; they do not document code or validation in the current student notebook. Prepare and validate the local instructor example separately.
 
 A fixed random seed creates 80 synthetic examples. An invented formula associates readability, passive voice, age, and structure with a binary support-ticket label, with added noise. Sentence length is included as a feature but has no direct effect in that generating formula. Labels are split at the synthetic signal's median; this artificial class balance does not represent a real ticket rate.
 

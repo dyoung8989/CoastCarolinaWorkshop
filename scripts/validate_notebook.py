@@ -35,10 +35,15 @@ if args.execute:
         c.cell_type == "code" and c.source.lstrip().startswith("# Install"))]
     nb.cells.append(nbformat.v4.new_code_cell("""
 assert result2['readiness_score'] > result['readiness_score']
-assert len(X_train) == 60 and len(X_test) == 20
-assert set(X_train.index).isdisjoint(set(X_test.index))
-assert len(risk_probabilities) == 3
-assert all(0 <= p <= 1 for p in risk_probabilities)
+assert original_result == score_doc(original)
+assert revision_result == score_doc(revision)
+assert list(comparison.columns) == ['Original', 'Revision']
+assert comparison.shape == (6, 2)
+for column, scores in [('Original', original_result), ('Revision', revision_result)]:
+    assert comparison.loc['Readiness score (0–100)', column] == scores['readiness_score']
+    assert comparison.loc['Flags', column] == ('; '.join(scores['flags']) or 'No flags')
+assert original_result['flags'], 'The starter original should demonstrate feedback'
+assert revision_result['readiness_score'] > original_result['readiness_score']
 assert extract_actions('The mustard is yellow.') == []
 assert len(extract_actions('Please save the file.')) == 1
 try:

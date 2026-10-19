@@ -9,7 +9,7 @@ Companion materials for a 90-minute Coastal Carolina workshop for English studen
 1. Click **Open in Colab** above. No notebook upload or local Python installation is needed.
 2. Sign in to Google and choose **File → Save a copy in Drive** to keep your own edits.
 3. In your copy, run the setup cells, then work from top to bottom with **Shift + Enter**. Wait for setup to finish; if Colab requests a restart, restart the session and run from the top.
-4. Follow the two student exercises; the instructor leads the prediction demo.
+4. Follow the two student exercises. The instructor runs a separate prediction example locally; students do not run Tier 3 in this notebook.
 
 ### If the link does not open
 
@@ -37,11 +37,11 @@ A private GitHub repository may require additional authorization. If Colab canno
 
 ## Reading the results
 
-Extraction can miss or mislabel information. A readiness score is a discussion prompt, not a measure of writing quality. The prediction data is synthetic: the demo illustrates a method, not evidence about actual support tickets. Human judgment remains essential throughout.
+Extraction can miss or mislabel information. A readiness score is a discussion prompt, not a measure of writing quality. The instructor’s separate prediction example illustrates a method; its outcomes should not be treated as evidence about actual support tickets. Human judgment remains essential throughout.
 
 ## Maintainer checks
 
-Students only need Colab. Maintainers can validate the notebook with `python scripts/validate_notebook.py`; the GitHub workflow also executes every analysis cell with the workshop dependencies. See [validation notes](docs/validation.md).
+Students only need Colab. Maintainers can validate the notebook with `python scripts/validate_notebook.py`; the GitHub workflow also executes every student analysis cell, including the original/revision comparison table, with the workshop dependencies. See [validation notes](docs/validation.md).
 
 Event date, room, slides, and facilitator contact details have not been supplied. See the facilitator checklist before sharing the workshop.
 

@@ -1,5 +1,11 @@
 # Validation
 
+## Student notebook revision
+
+The student notebook now contains Tiers 1 and 2 only. Tier 3 is a separate local instructor demonstration and is not executed by student-notebook validation. The Tier 2 exercise defines editable `original` and `revision` text blocks, scores both independently, and displays all six result fields, including full flags, in a two-column comparison table. Behavior checks verify the table against both score results and confirm the starter revision improves the score. scikit-learn and Matplotlib are no longer direct student dependencies.
+
+The validation records below describe earlier versions, including the former prediction example. Current checks cover only the student workflow.
+
 ## Python 3.13 compatibility update
 
 The notebook analysis cells and behavior checks passed in isolated Python 3.13.5 and Python 3.12.14 environments with the updated pins. CI now covers both Python 3.12 and 3.13. NumPy 2.2.6 and Click 8.4.2 replace older pins that conflicted with packages preinstalled in a reported Colab Python 3.13.16 session. spaCy and its setup dependencies were updated together to a compatible set. Setup output is no longer quiet.
@@ -14,6 +20,6 @@ The Colab installation cell was skipped during kernel execution; dependencies an
 
 Run `python scripts/validate_notebook.py` for JSON structure, Python syntax, and cleared-output checks. Maintainer execution first upgrades the installer with `python -m pip install --upgrade "pip>=26.2"`, then uses `python -m pip install -r requirements-validation.txt` followed by `python scripts/validate_notebook.py --execute`. Students should use Colab instead.
 
-Execution skips the Colab installation cell because dependencies are installed first. It runs every analysis cell in sequence and checks rewrite score improvement, disjoint training/test examples, probability ranges, action-keyword boundaries, and empty-text handling. An executed copy is written under `artifacts/` and excluded from version control. GitHub Actions saves it as a run artifact.
+Execution skips the Colab installation cell because dependencies are installed first. It runs every student analysis cell in sequence and checks rewrite score improvement, original/revision comparison values and flags, action-keyword boundaries, and empty-text handling. An executed copy is written under `artifacts/` and excluded from version control. GitHub Actions saves it as a run artifact.
 
 Automated execution does not replace a fresh Colab rehearsal, a check of repository visibility and the default branch, or a review of the learning activities with the actual audience.

@@ -56,7 +56,7 @@ Structured around the three-tier progression above so students feel the complexi
 
 ## Materials & prep checklist
 
-- One pre-built Colab notebook covering all three tiers, shared as a link in advance (test it fresh the morning of — Colab library versions drift).
+- One pre-built student Colab notebook covering Tiers 1 and 2, shared as a link in advance (test it fresh the morning of — Colab library versions drift). Prepare Tier 3 separately for a local instructor demonstration.
 - Slides for the concept sections (tokenization, embeddings, etc. — keep visuals simple and metaphor-driven, not equations).
 - Printed or linked resource handout (see below).
 - A TA or helper for the hands-on blocks, if possible — most delays come from individual notebook hiccups, not the material itself.
