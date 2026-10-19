@@ -1,0 +1,7 @@
+Before you begin, make sure you have administrator access to the instance. First, navigate
+to System Settings and select User Administration. You must verify that the user's role
+includes "admin" before proceeding. Next, click Add User and enter the required fields:
+username, email, and department. The system should automatically assign a default password,
+but you can override this if needed. Please confirm the new account by clicking Save. If the
+account does not appear in the list within 60 seconds, contact the IT Help Desk at extension
+4521. Do not share admin credentials with other users under any circumstances.

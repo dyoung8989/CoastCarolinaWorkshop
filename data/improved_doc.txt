@@ -1,0 +1,6 @@
+## Deployment Steps
+
+1. The infrastructure team provisions the new environment.
+2. The administrator updates the configuration settings.
+3. Complete each step in order to avoid conflicts with existing services.
+4. Monitoring tools alert the on-call engineer if an error occurs.

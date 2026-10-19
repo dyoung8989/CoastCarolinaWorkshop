@@ -1,0 +1,7 @@
+The configuration settings are modified by the administrator once the new environment has
+been provisioned by the infrastructure team. It should be noted that the deployment process,
+which involves several interdependent steps that must be completed in a specific order to
+avoid conflicts with existing services, is not always fully understood by new team members,
+and as a result, errors are frequently introduced during the initial setup phase, which can
+then cascade into larger system failures if they are not caught early by the monitoring tools
+that have been configured to alert the on-call engineer.
