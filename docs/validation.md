@@ -6,7 +6,7 @@ All analysis cells executed successfully in a Python 3.12 Jupyter kernel with th
 
 The Colab installation cell was skipped during kernel execution; dependencies and the language model were installed separately. A fresh Colab rehearsal is still required. Explicit weasel, typer, and click pins address a dependency problem found during this check.
 
-Run `python scripts/validate_notebook.py` for JSON structure, Python syntax, and cleared-output checks. Maintainer execution uses `python -m pip install -r requirements-validation.txt` followed by `python scripts/validate_notebook.py --execute`. Students should use Colab instead.
+Run `python scripts/validate_notebook.py` for JSON structure, Python syntax, and cleared-output checks. Maintainer execution first upgrades the installer with `python -m pip install --upgrade "pip>=26.2"`, then uses `python -m pip install -r requirements-validation.txt` followed by `python scripts/validate_notebook.py --execute`. Students should use Colab instead.
 
 Execution skips the Colab installation cell because dependencies are installed first. It runs every analysis cell in sequence and checks rewrite score improvement, disjoint training/test examples, probability ranges, action-keyword boundaries, and empty-text handling. An executed copy is written under `artifacts/` and excluded from version control. GitHub Actions saves it as a run artifact.
 
